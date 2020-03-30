@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "Donantes.h"
 
 //muestra todos los donanates en la matriz donanates[][]
 //donanates[][] guarda todos los donanates
