@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+//muestra todos los donanates en la matriz donanates[][]
+//donanates[][] guarda todos los donanates
+//counter[] cuenta cuantos usuarios han donado por tipo de sangre
 void mostrarDonantes(persona donantes[4][10], int counter[4]){
 	
   int i,j;
