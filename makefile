@@ -15,5 +15,5 @@ buscarDonante: buscarDonante.c Donanates.h
 donar_sangre: donar_sangre.c Donanates.h
 	gcc -c donar_sangre.c
 
-main: main.c calendario.h
+main: main.c Donanates.h
 	gcc -c main.c
