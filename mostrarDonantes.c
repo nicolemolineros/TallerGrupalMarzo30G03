@@ -11,16 +11,16 @@ void mostrarDonantes(persona donantes[4][10], int counter[4]){
   printf("===Donantes===\n");
 	for(i = 0; i < 4; i++){
     switch( i ){
-    	case 1:
+    	case 0:
       	printf("==Tipo A==\n");
       	break;
-      case 12:
-      	printf("==Tipo BB==\n");
+      case 1:
+      	printf("==Tipo B==\n");
       	break;
-      case 23:
+      case 2:
       	printf("==Tipo AB==O\n");
       	break;
-      case 34:
+      case 3:
       	printf("==Tipo O==\n");
       	break;
     }
