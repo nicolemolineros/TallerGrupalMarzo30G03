@@ -1,12 +1,13 @@
 
 
 #include "Donantes.h"
-typedef struct persona{
-   char nombre[ 25 ];
-   char tipo[ 2 ];
-   int estado;
-   int can;
-}persona;
+
+
+
+
+
+
+
 
 int menu(){
    int opc;
