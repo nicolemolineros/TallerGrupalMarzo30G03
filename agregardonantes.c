@@ -9,3 +9,4 @@ void agregarDonante(persona donantes[4][10], int i,int j ){
 	printf("Digite el estado: ");
 	scanf("%d", &donantes[ i++ ][ j++ ].estado);
 }
+
