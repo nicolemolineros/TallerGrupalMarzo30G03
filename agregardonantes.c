@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include "Donantes.h"
 
 void agregarDonante(persona donantes[4][10], int i,int j ){
