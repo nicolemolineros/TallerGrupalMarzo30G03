@@ -1,9 +1,9 @@
 all: program
 
-program: main mostrarDonantes agregarDonantes buscarDonante
+program: main buscarDonante agregarDonantes mostrarDonantes
 	gcc -o bloodBank Main.o mostrarDonantes.o agregardonantes.o banco.o
 
-mostrarDonanates: mostrarDonantes.c Donantes.h
+mostrarDonantes: mostrarDonantes.c Donantes.h
 	gcc -c mostrarDonantes.c
 agregarDonantes: agregardonantes.c Donantes.h
 	gcc -c agregardonantes.c
