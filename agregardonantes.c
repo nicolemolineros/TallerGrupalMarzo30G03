@@ -26,14 +26,13 @@ void agregarDonante(persona donantes[4][10], int counter[4]){
 		bloodType = 3;
 	}
 	
-	printf("bloodtype=%d", bloodType);
-	
 	if(counter[bloodType] >= 10){
 		printf("No se pudo agregar donanate, arreglo lleno\n");
 		return;
 	}else{
-		donantes[bloodType][counter[bloodType]++];
-		printf(">>> {%s %c%s} agregado", newPersona.nombre, estado, newPersona.tipo);
+		donantes[bloodType][counter[bloodType]] = newPersona;
+		printf(">>> {%s %c%s} agregado", newPersona.nombre , estado, newPersona.tipo);
+		counter[bloodType]+=1;
 	}
 	
 	return;
