@@ -1,7 +1,4 @@
-
-
 #include "Donantes.h"
-
 
 int menu(){
    int opc;
