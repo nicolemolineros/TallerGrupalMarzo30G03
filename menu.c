@@ -10,8 +10,7 @@ int menu(){
    printf( "1 Agregar donante \n " );
    printf( "2 Mostrar donantes \n ");
    printf( "3 Buscar donante \n" );
-   printf( "4 Donar sangre \n" );
-   printf( "5 Salir \n" );
+   printf( "4 Salir \n" );
    printf( "Digite su opcion por favor \n" );
    printf("==>"); scanf( "%d", &opc );
    return opc;
