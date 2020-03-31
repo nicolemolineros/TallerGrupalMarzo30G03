@@ -1,7 +1,7 @@
 all: program
 
 program: main menu buscarDonante agregarDonantes mostrarDonantes
-	gcc -o bloodBank Main.o mostrarDonantes.o agregardonantes.o banco.o
+	gcc -o bloodBank Main.o menu.o mostrarDonantes.o agregardonantes.o banco.o
 
 mostrarDonantes: mostrarDonantes.c Donantes.h
 	gcc -c mostrarDonantes.c
