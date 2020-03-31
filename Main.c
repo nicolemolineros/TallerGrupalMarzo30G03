@@ -3,12 +3,13 @@
 
 int main (){
 	persona donantes[4][10];
+   int counter[4]={0};
    int opcion;
    do{
 	  opcion=menu();
       switch(opcion){
          case 1:
-            agregardonantes();
+            agregardonantes(donantes,counter);
             break;
          case 2:
             mostrarDonantes(donantes,counter);
