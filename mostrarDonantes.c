@@ -24,11 +24,11 @@ void mostrarDonantes(persona donantes[4][10], int counter[4]){
       	break;
     }
   	for(j = 0; j < counter[i]; j++){
-  		printf("{%s: ", donanates[i][j].nombre);
+  		printf("{%s: ", donantes[i][j].nombre);
       if(donantes[i][j].estado == 0)
       	printf("+");
       else printf("-");
-      printf("%s", donanates[i][j].tipo);
+      printf("%s", donantes[i][j].tipo);
     }
   }
   printf("\n=========\n\n");

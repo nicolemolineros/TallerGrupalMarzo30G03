@@ -9,7 +9,7 @@ int main (){
 	  opcion=menu();
       switch(opcion){
          case 1:
-            agregardonantes(donantes,counter);
+            agregarDonante(donantes,counter);
             break;
          case 2:
             mostrarDonantes(donantes,counter);
