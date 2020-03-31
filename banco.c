@@ -12,14 +12,10 @@ void buscarDonante(persona donantes[4][10]){
         printf("El donante %s fue encontrado exitosamente en el sistema\n", donantes[i][j].nombre);
         printf("%s: [%d, %d]", donantes[i][j].nombre, donantes[i][j].tipo, donantes[i][j].estado);
         return;
-        
-      }
-      else{
-        printf("El donante %s no ha sido ingresado en el sistema", donantes[i][j].nombre);
-      }
-    
+      }   
     }
   }
+  printf("El donante %s no ha sido ingresado en el sistema", donantes[i][j].nombre); 
   return;
 }
 
