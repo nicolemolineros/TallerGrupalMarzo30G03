@@ -10,7 +10,7 @@ void buscarDonante(persona donantes[4][10]){
     for(j = 0; j < 10; j++){
       if(!strcmp(donantes[i][j].nombre, name) == 0){
         printf("El donante %s fue encontrado exitosamente en el sistema\n", donantes[i][j].nombre);
-        printf("%s: [%d, %d]", donantes[i][j].nombre, donantes[i][j].tipo, donantes[i][j].estado);
+        printf("%s: [%s, %d]", donantes[i][j].nombre, donantes[i][j].tipo, donantes[i][j].estado);
         return;
       }   
     }
