@@ -17,7 +17,7 @@ void mostrarDonantes(persona donantes[4][10], int counter[4]){
       	printf("==Tipo B==\n");
       	break;
       case 2:
-      	printf("==Tipo AB==O\n");
+      	printf("==Tipo AB==\n");
       	break;
       case 3:
       	printf("==Tipo O==\n");
@@ -28,8 +28,9 @@ void mostrarDonantes(persona donantes[4][10], int counter[4]){
       if(donantes[i][j].estado == 0)
       	printf("+");
       else printf("-");
-      printf("%s", donantes[i][j].tipo);
+		printf("%s}", donantes[i][j].tipo);
     }
+	printf("\n");
   }
   printf("\n=========\n\n");
 	return;
