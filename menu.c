@@ -3,12 +3,6 @@
 #include "Donantes.h"
 
 
-
-
-
-
-
-
 int menu(){
    int opc;
    printf( "\n BANCO DE SANGRE ¡BIENVENIDO! \n" );
