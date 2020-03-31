@@ -9,7 +9,7 @@ void agregarDonante(persona donantes[4][10], int counter[4]){
 	printf("Nombre: "); scanf("%s", newPersona.nombre);
 	printf("Tipo de sangre: "); scanf("%s", newPersona.tipo);
 	fflush(stdin);
-	printf("1.+ o 0.- :"); scanf("%c", &estado);
+	printf("1.+ o 0.- :"); scanf("%d", &estado);
 	if(estado == 1){
 		newPersona.estado = 43;
 	}else{
