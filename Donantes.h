@@ -7,7 +7,7 @@ typedef struct persona{
    int estado;
 }persona;
 
-void agregarDonante(persona donantes[4][10], int i,int j );
+void agregarDonante(persona donantes[4][10], int counter[4]);
 
 void mostrarDonantes(persona donantes[4][10], int counter[4]);
 
