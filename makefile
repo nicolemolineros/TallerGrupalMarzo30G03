@@ -12,5 +12,5 @@ agregarDonanate: agregardonantes.c Donanates.h
 buscarDonante: buscarDonante.c Donanates.h
 	gcc -c buscarDonante.c
 	
-main: main.c Donanates.h
+main: main.c Donantes.h
 	gcc -c main.c
