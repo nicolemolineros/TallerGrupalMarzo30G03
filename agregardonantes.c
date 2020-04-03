@@ -3,19 +3,22 @@
 void agregarDonante(persona donantes[4][10], int counter[4]){
 	
 	persona newPersona;
-	int estado;
+	char estado;
 	int bloodType;
-	
+
 	printf("Nombre: "); scanf("%s", newPersona.nombre);
 	printf("Tipo de sangre: "); scanf("%s", newPersona.tipo);
 	fflush(stdin);
-	printf("1.+ o 0.- :"); scanf("%d", &estado);
-	if(estado == 1){
+	printf("+ o - :"); scanf("%s",&estado);
+	
+	
+	if(estado=='+'){
 		newPersona.estado = 0;
 	}else{
 		newPersona.estado = 1;
 	}
-	
+
+
 	if(!strcmp(newPersona.tipo, "A")){
 		bloodType = 0;
 	}else if(!strcmp(newPersona.tipo, "B")){
