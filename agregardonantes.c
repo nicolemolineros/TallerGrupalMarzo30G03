@@ -11,7 +11,7 @@ void agregarDonante(persona donantes[4][10], int counter[4]){
 	printf("+ o - :"); scanf("%s",&estado);
 	
 	
-	if(estado=='+'){
+	if(estado=='+'){ //FIXME: el estado se podía manera tambien como un enum
 		newPersona.estado = 0;
 	}else{
 		newPersona.estado = 1;
@@ -19,7 +19,7 @@ void agregarDonante(persona donantes[4][10], int counter[4]){
 
 
 	if(!strcmp(newPersona.tipo, "A")){
-		bloodType = 0;
+		bloodType = 0; // FIXME: aqui también se podrían usar los enums 
 	}else if(!strcmp(newPersona.tipo, "B")){
 		bloodType = 1;
 	}else if(!strcmp(newPersona.tipo, "AB")){
@@ -28,9 +28,9 @@ void agregarDonante(persona donantes[4][10], int counter[4]){
 		bloodType = 3;
 	}
 	
-	if(counter[bloodType] >= 10){
+	if(counter[bloodType] >= 10){ // Numero mágico
 		printf("No se pudo agregar donante, arreglo lleno\n");
-		return;
+		return; // Este return sobra, pq el de la línea 50 se va a ejecutar
 	}else{
 
 		donantes[bloodType][counter[bloodType]] = newPersona;
